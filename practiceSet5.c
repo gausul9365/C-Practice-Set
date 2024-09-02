@@ -206,38 +206,53 @@
 
 
 
-// plus with star
+// // plus with star
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(){
-    int n ;
+// int main(){
+//     int n ;
 
-    printf("ENTER YOUR NUMBER: ");
-    scanf("%d",&n);
+//     printf("ENTER YOUR NUMBER: ");
+//     scanf("%d",&n);
 
-    for (int i=0; i<=n; i++){
+//     for (int i=0; i<=n; i++){
         
-       for(int j = 1; j<=n; j++){
-        int a = n/2 + 1;
+//        for(int j = 1; j<=n; j++){
+//         int a = n/2 + 1;
 
-            if(j == a || i == a){
+//             if(j == a || i == a){
 
-                printf("*");
+//                 printf("*");
                 
-            }
-            else{
-                printf(" ");
-            }
+//             }
+//             else{
+//                 printf(" ");
+//             }
         
-       }
+//        }
        
+//         printf("\n");
+//     }
+//     return 0;
+// }
+
+
+// A to B in 26 line
+#include <stdio.h>
+int main(){
+
+    for (int i=0; i<=25; i++){
+        int a =1;
+       for(int j = 0; j<i+1; j++){
+        char ch = a + 64;
+        printf("%c", (char)ch);
+        a++;
+       }
         printf("\n");
     }
     return 0;
 }
-
-
 
 
 
