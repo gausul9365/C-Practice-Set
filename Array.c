@@ -86,7 +86,7 @@ int main()
   return 0;
 }
 
-4. Repeat problem 3 for a general input provided by the user using scanf
+// 4. Repeat problem 3 for a general input provided by the user using scanf
 
 #include <stdio.h>
 int main()
