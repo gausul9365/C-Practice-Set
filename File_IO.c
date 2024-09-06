@@ -1,16 +1,16 @@
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// #include <stdio.h>
-// int main()
-// {
+#include <stdio.h>
+int main()
+{
 
 // Reading the file
-// FILE *ptr = NULL;
-// char string[50] = " rewritng the name: Gausul Wara Imam";
-// ptr = fopen("fileReadWrite.txt", "r");
-// fscanf(ptr, "%s", string);
-// printf("%s\n", string );
+FILE *ptr = NULL;
+char string[50] = " rewritng the name: Gausul Wara Imam";
+ptr = fopen("fileReadWrite.txt", "r");
+fscanf(ptr, "%s", string);
+printf("%s\n", string );
 
 // Writing the file
 // ptr = fopen("fileReadWrite.txt", "w");  
@@ -33,12 +33,6 @@
 // char string[100];
 
 // fputs("hello bro i am gausul wara imam", ptr);
-  
-
-
-
-
-  
-    
-//   return 0;
-// }
+  fclose(ptr);
+  return 0;
+}
