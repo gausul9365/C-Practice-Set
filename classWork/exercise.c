@@ -1,8 +1,8 @@
-// write a c program to find area of crcle 
+// write a c program to find area of crcle
 // WAP to find circumference of circle
-// WAP to find the simple Intrest 
+// WAP to find the simple Intrest
 // WAP to find to convert tremperature from deegree centuigrade to farhenhieght
-// WAP to calculate sum of five subject and find the percentage 
+// WAP to calculate sum of five subject and find the percentage
 
 // interest = (principal * rate * time) / 100;
 
@@ -16,13 +16,12 @@
 
 //   printf("Enter the First number: ");
 //   scanf("%d", &num1);
-    
+
 //   printf("Enter the Second number: ");
 //     scanf("%d", &num2);
 //    sum = num1 + num2;
 //     printf("The sum of the number %d", sum);
-      
-      
+
 //   return 0;
 // }
 
@@ -39,7 +38,6 @@
 //   printf("Area of the circle: %d\n", area);
 //   printf("Cicumference of the circle: %d", area);
 
-    
 //   return 0;
 // }
 
@@ -48,7 +46,6 @@
 // {
 //   int principal, time;
 //   float rate;
-   
 
 //   printf("Enter the Principal: " );
 //   scanf("%d", &principal);
@@ -56,11 +53,11 @@
 //   scanf("%f", &rate);
 //    printf("Enter the time: " );
 //   scanf("%d", &time);
-    
+
 //    float  interest = (principal * rate * time) / 100;
 
 //    printf("The Simple Interest: %f", interest );
-    
+
 //   return 0;
 // }
 
@@ -89,8 +86,7 @@
 
 //   printf(" Total marks of subject: %d\n",sumOfSubject );
 //   printf(" Percentage of total marks: %d\n",percentage );
-    
- 
+
 //   return 0;
 // }
 
@@ -104,11 +100,9 @@
 
 //   printf("Enter the centegirade: " );
 //   scanf("%d",&centigrade);
-//   farhenheight = (9/5)*centigrade + 32; 
-      
+//   farhenheight = (9/5)*centigrade + 32;
+
 //   printf("The Temperature in farhenheight : %d", farhenheight);
-    
 
 //   return 0;
 // }
-
