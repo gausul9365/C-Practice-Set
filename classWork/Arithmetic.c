@@ -13,6 +13,5 @@ int main(){
    c= a%b;
   printf("remider when devided by b= %d\n",c );
   return 0;
-    
-
+  
 }
